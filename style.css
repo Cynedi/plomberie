@@ -163,3 +163,35 @@ margin-bottom: 50px;}
 margin-left: 200px;
 display: inline-block;
 }
+/*formulaire de contact*/
+#nom {display: block;}
+#prenom {display: block;}
+#entreprise
+#email {display: block;}
+#telephone {display: block;}
+#message{display: block;}
+label {
+font-size: 20px;
+margin-top: 10%;
+display: block;}
+form {
+background-color: white;
+width: 25%;
+padding-left: 70px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-left: 350px;;
+margin-top: auto;
+margin-bottom: 20px;
+box-shadow: 4px 4px 2px grey;
+display: inline-block;
+
+}
+#envoyer {
+margin-top: 30px;
+margin-left: 70px;
+}
+#titre {
+font-size: 30px;
+margin-bottom: 40px;
+}
