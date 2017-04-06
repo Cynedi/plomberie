@@ -2,7 +2,7 @@ body {
   background-color: rgba(76, 119, 231, 0.67);
   font-family: 'Orbitron', sans-serif;
 }
-/* {border: 1px solid black;}*/
+/* {border: 1px solid black;}
 /*conception du header*/
 header img {
 width: 180px;
@@ -145,3 +145,21 @@ margin-left: 77px;
 h4 {
 font-size: 22px;
 padding-left: 60px;}
+/*tableaux page des tarifs*/
+table {
+border: 2px solid white;
+margin-left:50px;
+margin-bottom: 70px;}
+th {border: 1px solid white;
+padding: 4px;}
+td {border: 1px solid white;
+text-align: center;
+padding: 4px;}
+caption {font-size: 30px;
+color: white;
+margin-top: 30px;
+margin-bottom: 50px;}
+#tableaux {width: 60%;
+margin-left: 200px;
+display: inline-block;
+}
