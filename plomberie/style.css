@@ -4,19 +4,20 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 /*conception du header*/
-header img {
-  width: 500px;
+#img1 {
+  width: 180px;
   height: 200px;
   display: inline-block;
   margin: 10px;}
-/*header h1 {
+#img2 {display: none;}
+header h1 {
   margin-left: 300px;
   margin-bottom: 100px;
   font-size: 60px;
   margin-top: -30px;
   padding-left: 100px;
   color: white;
-  text-shadow: 3px 3px 2px black;*/
+  text-shadow: 3px 3px 2px black;
 }
 #search {
   vertical-align: top;
@@ -62,6 +63,7 @@ header img {
 /*conception des sections de présentation de l'entreprise*/
 main {
   background-color: white;
+  float: right;
   width: 78%;
   height: 100%;
   text-align: center;
@@ -87,8 +89,7 @@ main h3 {
 }
 /*conception de l'aside*/
 aside {
-  position: absolute;
-  left: 0px;
+  float: left;
   width: 20%;
   height: 100%;
   background-color:rgb(247, 208, 0);
@@ -128,7 +129,7 @@ aside h3 {
 /*conception du footer partie haute*/
 #top {
   display: inline-block;
-  margin: 50px;
+  margin: 20px;
   width: auto;
 }
 #top img {
@@ -140,7 +141,6 @@ aside h3 {
 /*conception footer partie basse*/
 #bottom {
   display: inline-block;
-  margin-top: -30px;
   width: 100%;
   font-size: 13px;
   color: rgb(7, 75, 166);
@@ -155,11 +155,12 @@ aside h3 {
 .bottom {
   width: 25%;
   display: inline-block;
-  margin-left: 77px;
+  margin-left: 10px;
 }
 h4 {
-font-size: 22px;
-padding-left: 60px;
+font-size: 15px;
+padding-left: 10px;
+width: 50px;
 }
 /*tableaux page des tarifs*/
 table {
@@ -244,13 +245,113 @@ form {
 iframe {
   width: 300px;
 }
+/*##########reponsive iphone####################*/
+@media screen and (max-width:600px) {
+  *{border: 1px solid black;}
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  }
+/*header*/
+#img1
+  {display: none;
+}
+#img2 {
+display: inline-block;
+width: 60px;
+height: 60px;
+}
 
-@media screen and (max-width:700px) {
-  header img
-  {
-      width: 40px;
-      height: 40px;
-    }
-
-
+#search {
+  display: none;}
+#moncompte {
+  vertical-align: top;
+  margin-right: 10px;
+  width: 20px;
+  display: inline-block;
+}
+#monpanier {
+  vertical-align: top;
+  margin-right: 0px;
+  width: 30px;
+  display: inline-block;
+}
+header h1 {
+  margin-left: 60px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  margin-top: -10px;
+  padding-left: 60px;
+  width: 140px;
+  text-align: center;
+}
+header {
+  width: 100%;
+  height: 160px;;
+}
+/*menu*/
+#navigation {
+  width: 100%;
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+#navigation li {
+  font-size: 10px;
+}
+#navigation li a {
+  padding: 2px 5px;
+}
+/*partie principale*/
+main {
+  width: 78%;
+  height: 100%;
+  border-radius: 5px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+main img {
+  width: 40px;
+  height: 40px;}
+main h2 {
+  font-size: 15px;
+  margin-top: 30px;}
+main h3 {
+  font-size: 12px;}
+aside {
+  display: none;
+}
+main p {font-size: 10px;}
+/*footer top*/
+#top {
+  margin: 20px;
+  margin-left: 30px;
+}
+#top img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+/*footer bottom*/
+#bottom {
+  margin-top: -100px;
+  width: 100%;
+  font-size: px;
+  color: rgb(7, 75, 166);
+}
+.footer li a {
+  display: none;}
+.footer {
+  display: none;}
+.bottom {
+  width: 20%;
+  display: inline-block;
+  margin-left: 40px;
+}
+h4 {
+font-size: 10px;
+padding-left: 8px;
+}
+footer {width: 100%;}
 }
