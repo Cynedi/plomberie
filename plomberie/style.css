@@ -253,13 +253,146 @@ form {
 iframe {
   width: 300px;
 }
+/*responsive tablette*/
+@media (max-width: 1024px) {
+  body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    }
+  /*header*/
+  #img1 {
+    display: none;
+  }
+  #img2 {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  }
 
-@media (max-width: 980px) {
+  #search {
+    display: none;}
+  #moncompte {
+    vertical-align: top;
+    margin-right: 30px;
+    width: 50px;
+    display: inline-block;
+  }
+  #monpanier {
+    vertical-align: top;
+    margin-right: 20px;
+    width: 60px;
+    display: inline-block;
+  }
+  header h1 {
+    margin-left: -80px;
+    font-size: 50px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  header {
+    width: 100%;
+    height: 300px;
+  }
+  /*menu*/
+  #navigation {
+    width: 100%;
+    height: 25px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  #navigation li {
+    font-size: 25px;
+  }
 
+  /*partie principale*/
+  main {
+    width: 78%;
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  main img {
+    width: 100px;
+    height: 100px;}
+  main h2 {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  aside {
+    display: none;
+  }
+
+  /*footer top*/
+  #top {
+    margin: 20px;
+    width: auto;
+  }
+  #top img {
+    width: 50px;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 70px;
+  }
+  /*footer bottom*/
+  #bottom {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .footer {
+    margin-left: 100px;}
+  .bottom {
+    margin-left: 10px;
+  }
+  h4 {
+  font-size: 15px;
+  padding-left: 130px;
+  }
+
+  /*tableaux des tarifs*/
+  table {
+    margin-left:0px;
+    }
+  caption {
+    margin-bottom: 0px;}
+  #tableaux {
+    width: 70%;
+    margin-left: 120px;
+  }
+
+  /*formulaire de contact*/
+  form {
+    padding: 10px 40px 10px 70px;
+    margin-left: 250px;
+  }
+  #envoyer {
+    margin-left: 50px;
+  }
+  #titre {
+    font-size: 20px;
+  }
+  /*map et coordonnée*/
+  #ounoustrouver{
+    font-size: 15px;
+    background-color: white;
+    margin-top: 0px;
+  }
+  #maap {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    }
+  #coordonee {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+  }
 }
-
-
-/*##########reponsive iphone####################*/
+/*reponsive iphone*/
 @media (max-width: 700px) {
   /*{border: 1px solid black;}*/
   body {
@@ -276,7 +409,6 @@ iframe {
   width: 60px;
   height: 60px;
   }
-
   #search {
     display: none;}
   #moncompte {
@@ -378,7 +510,8 @@ iframe {
     border: 1px solid white;
     margin-left:0px;
     margin-bottom: 20px;
-    font-size: 10px;}
+    font-size: 10px;
+  }
   th {
     border: 1px solid white;
     padding: 1px;}
@@ -387,7 +520,7 @@ iframe {
     padding: 1px;}
   caption {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 0px;}
   #tableaux {
     width: 100%;
